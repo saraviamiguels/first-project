@@ -19,4 +19,4 @@ def load_data():
 
 
 df = load_data()
-st.dataframe(df.head())
+st.dataframe(df.head(1))
